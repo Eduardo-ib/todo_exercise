@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <script src="function.js"></script>
+    <!--CDN bootstrap-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    
+
+
+
+  <div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+      <div class="bar">
+        <div class="jumbotron">
+        <center><h1>Todos</h1></center>
+        <br>
+  <form id="form-add-todo" class="form-add-todo">
+    
+    <input type="text" id="new-todo-item" class="new-todo-item redondeado " name="todo" placeholder="what needs to be done?" />
+    <input type="submit" id="add-todo-item" class="add-todo-item" value="add the todo" hidden= "true" />
+  </form>
+  <br>
+  <form id="form-todo-list">
+    <ul id="todo-list" class="todo-list">
+    </ul>
+  </form>
+</div>
+  <!--fin ejemplo-->
+        
+      </div>
+    </div>
+  </div>
+  <footer style="text-align: center;">
+    <p>Created by Eduardo Ibarra</p>
+    <p>Copyright &copy; 2020</p>
+    <p>Part of TodoMVC</p>
+</footer>
+</body>
+</html>
